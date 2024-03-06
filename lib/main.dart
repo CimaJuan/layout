@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
               ButtonSection(),
               TextSection(
                 description:
-                    'Este lugar, es una de las maravillas más grandes del país,'
+                    'Este lugar es una de las maravillas más grandes del país,'
                     'puedes hacer eventos especiales y pasar un bello momento familiar',
               ),
             ],
@@ -76,11 +76,7 @@ class TitleSection extends StatelessWidget {
               ],
             ),
           ),
-          Icon(
-            Icons.star,
-            color: Colors.red[500],
-          ),
-          const Text('41'),
+          const FavoriteWidget(),
         ],
       ),
     );
